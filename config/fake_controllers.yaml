@@ -1,0 +1,23 @@
+controller_list:
+  - name: fake_differential_drive_controller
+    joints:
+      - wheel_left_joint
+      - wheel_right_joint
+  - name: fake_left_arm_controller
+    joints:
+      - left_arm_shoulder_roll_joint
+      - left_arm_shoulder_pitch_joint
+      - left_arm_shoulder_yaw_joint
+      - left_arm_elbow_pitch_joint
+      - left_arm_elbow_yaw_joint
+      - left_arm_wrist_pitch_joint
+      - left_arm_wrist_roll_joint
+  - name: fake_right_arm_controller
+    joints:
+      - right_arm_shoulder_roll_joint
+      - right_arm_shoulder_pitch_joint
+      - right_arm_shoulder_yaw_joint
+      - right_arm_elbow_pitch_joint
+      - right_arm_elbow_yaw_joint
+      - right_arm_wrist_pitch_joint
+      - right_arm_wrist_roll_joint
