@@ -11,6 +11,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_package()
 
+include_directories(include ${catkin_INCLUDE_DIRS})
+
 add_executable(dynamixel_actionserver src/dynamixel_actionserver.cpp)
 
 target_link_libraries(dynamixel_actionserver
